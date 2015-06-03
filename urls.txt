@@ -1,0 +1,23 @@
+Preamble	http://le.utah.gov/xcode/Article0/UC_A0_1800010118000101.pdf	http://le.utah.gov/xcode/Article0/UC_A0_1800010118000101.rtf	http://le.utah.gov/xcode/Article0/UC_A0_1800010118000101.xml
+Article I	http://le.utah.gov/xcode/ArticleI/UC_AI_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleI/UC_AI_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleI/UC_AI_1800010118000101.xml
+Article II	http://le.utah.gov/xcode/ArticleII/UC_AII_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleII/UC_AII_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleII/UC_AII_1800010118000101.xml
+Article III	http://le.utah.gov/xcode/ArticleIII/UC_AIII_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleIII/UC_AIII_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleIII/UC_AIII_1800010118000101.xml
+Article IV	http://le.utah.gov/xcode/ArticleIV/UC_AIV_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleIV/UC_AIV_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleIV/UC_AIV_1800010118000101.xml
+Article V	http://le.utah.gov/xcode/ArticleV/UC_AV_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleV/UC_AV_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleV/UC_AV_1800010118000101.xml
+Article VI	http://le.utah.gov/xcode/ArticleVI/UC_AVI_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleVI/UC_AVI_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleVI/UC_AVI_1800010118000101.xml
+Article VII	http://le.utah.gov/xcode/ArticleVII/UC_AVII_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleVII/UC_AVII_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleVII/UC_AVII_1800010118000101.xml
+Article VIII	http://le.utah.gov/xcode/ArticleVIII/UC_AVIII_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleVIII/UC_AVIII_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleVIII/UC_AVIII_1800010118000101.xml
+Article IX	http://le.utah.gov/xcode/ArticleIX/UC_AIX_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleIX/UC_AIX_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleIX/UC_AIX_1800010118000101.xml
+Article X	http://le.utah.gov/xcode/ArticleX/UC_AX_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleX/UC_AX_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleX/UC_AX_1800010118000101.xml
+Article XI	http://le.utah.gov/xcode/ArticleXI/UC_AXI_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleXI/UC_AXI_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleXI/UC_AXI_1800010118000101.xml
+Article XII	http://le.utah.gov/xcode/ArticleXII/UC_AXII_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleXII/UC_AXII_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleXII/UC_AXII_1800010118000101.xml
+Article XIII	http://le.utah.gov/xcode/ArticleXIII/UC_AXIII_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleXIII/UC_AXIII_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleXIII/UC_AXIII_1800010118000101.xml
+Article XIV	http://le.utah.gov/xcode/ArticleXIV/UC_AXIV_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleXIV/UC_AXIV_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleXIV/UC_AXIV_1800010118000101.xml
+Article XV	http://le.utah.gov/xcode/ArticleXV/UC_AXV_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleXV/UC_AXV_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleXV/UC_AXV_1800010118000101.xml
+Article XVI	http://le.utah.gov/xcode/ArticleXVI/UC_AXVI_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleXVI/UC_AXVI_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleXVI/UC_AXVI_1800010118000101.xml
+Article XVII	http://le.utah.gov/xcode/ArticleXVII/UC_AXVII_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleXVII/UC_AXVII_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleXVII/UC_AXVII_1800010118000101.xml
+Article XVIII	http://le.utah.gov/xcode/ArticleXVIII/UC_AXVIII_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleXVIII/UC_AXVIII_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleXVIII/UC_AXVIII_1800010118000101.xml
+Article XX	http://le.utah.gov/xcode/ArticleXX/UC_AXX_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleXX/UC_AXX_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleXX/UC_AXX_1800010118000101.xml
+Article XXII	http://le.utah.gov/xcode/ArticleXXII/UC_AXXII_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleXXII/UC_AXXII_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleXXII/UC_AXXII_1800010118000101.xml
+Article XXIII	http://le.utah.gov/xcode/ArticleXXIII/UC_AXXIII_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleXXIII/UC_AXXIII_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleXXIII/UC_AXXIII_1800010118000101.xml
+Article XXIV	http://le.utah.gov/xcode/ArticleXXIV/UC_AXXIV_1800010118000101.pdf	http://le.utah.gov/xcode/ArticleXXIV/UC_AXXIV_1800010118000101.rtf	http://le.utah.gov/xcode/ArticleXXIV/UC_AXXIV_1800010118000101.xml
