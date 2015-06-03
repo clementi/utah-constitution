@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="constitution">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="title"/>
+        <xs:element name="article" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="catchline"/>
+              <xs:element name="section" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType mixed="true">
+                  <xs:choice maxOccurs="unbounded" minOccurs="0">
+                    <xs:element type="xs:string" name="histories"/>
+                    <xs:element type="xs:string" name="catchline"/>
+                    <xs:element type="xs:string" name="tab"/>
+                    <xs:element name="subsection">
+                      <xs:complexType mixed="true">
+                        <xs:choice maxOccurs="unbounded" minOccurs="0">
+                          <xs:element name="subsection">
+                            <xs:complexType mixed="true">
+                              <xs:choice maxOccurs="unbounded" minOccurs="0">
+                                <xs:element name="xref">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute type="xs:byte" name="depth" use="optional"/>
+                                        <xs:attribute type="xs:string" name="refnumber" use="optional"/>
+                                        <xs:attribute type="xs:byte" name="start" use="optional"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="subsection">
+                                  <xs:complexType mixed="true">
+                                    <xs:choice maxOccurs="unbounded" minOccurs="0">
+                                      <xs:element name="subsection">
+                                        <xs:complexType mixed="true">
+                                          <xs:sequence>
+                                            <xs:element name="subsection" maxOccurs="unbounded" minOccurs="0">
+                                              <xs:complexType>
+                                                <xs:simpleContent>
+                                                  <xs:extension base="xs:string">
+                                                    <xs:attribute type="xs:string" name="number" use="optional"/>
+                                                  </xs:extension>
+                                                </xs:simpleContent>
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element name="xref" minOccurs="0">
+                                              <xs:complexType>
+                                                <xs:simpleContent>
+                                                  <xs:extension base="xs:string">
+                                                    <xs:attribute type="xs:byte" name="depth" use="optional"/>
+                                                    <xs:attribute type="xs:string" name="refnumber" use="optional"/>
+                                                    <xs:attribute type="xs:byte" name="start" use="optional"/>
+                                                  </xs:extension>
+                                                </xs:simpleContent>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                          <xs:attribute type="xs:string" name="number" use="optional"/>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="xref">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                              <xs:attribute type="xs:byte" name="depth" use="optional"/>
+                                              <xs:attribute type="xs:string" name="refnumber" use="optional"/>
+                                              <xs:attribute type="xs:byte" name="start" use="optional"/>
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:choice>
+                                    <xs:attribute type="xs:string" name="number" use="optional"/>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:choice>
+                              <xs:attribute type="xs:string" name="number" use="optional"/>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="xref">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:byte" name="depth" use="optional"/>
+                                  <xs:attribute type="xs:string" name="refnumber" use="optional"/>
+                                  <xs:attribute type="xs:byte" name="start" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="eol" minOccurs="0"/>
+                          <xs:element type="xs:string" name="tab" minOccurs="0"/>
+                        </xs:choice>
+                        <xs:attribute type="xs:string" name="number" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="eol"/>
+                  </xs:choice>
+                  <xs:attribute type="xs:string" name="number" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="arttext" minOccurs="0">
+                <xs:complexType mixed="true">
+                  <xs:choice maxOccurs="unbounded" minOccurs="0">
+                    <xs:element type="xs:string" name="eol"/>
+                    <xs:element type="xs:string" name="tab"/>
+                    <xs:element type="xs:string" name="bold"/>
+                  </xs:choice>
+                  <xs:attribute type="xs:string" name="num"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="number" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
