@@ -1,0 +1,43 @@
+default namespace = ""
+
+start =
+  element constitution {
+    element title { text },
+    element article {
+      attribute number { text },
+      catchline,
+      (element arttext {
+         attribute num { text },
+         (text
+          | eol
+          | tab
+          | element bold { text })+
+       }
+       | element section {
+           attribute number { text },
+           (text
+            | catchline
+            | eol
+            | subsection
+            | tab
+            | element histories { empty })+
+         }+)
+    }+
+  }
+catchline = element catchline { text }
+subsection =
+  element subsection {
+    attribute number { text },
+    (text
+     | eol
+     | subsection
+     | tab
+     | element xref {
+         attribute depth { xsd:integer },
+         attribute refnumber { text },
+         attribute start { xsd:integer },
+         text
+       })+
+  }
+eol = element eol { empty }
+tab = element tab { empty }

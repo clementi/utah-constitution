@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="constitution">
+      <element name="title">
+        <text/>
+      </element>
+      <oneOrMore>
+        <element name="article">
+          <attribute name="number"/>
+          <ref name="catchline"/>
+          <choice>
+            <element name="arttext">
+              <attribute name="num"/>
+              <oneOrMore>
+                <choice>
+                  <text/>
+                  <ref name="eol"/>
+                  <ref name="tab"/>
+                  <element name="bold">
+                    <text/>
+                  </element>
+                </choice>
+              </oneOrMore>
+            </element>
+            <oneOrMore>
+              <element name="section">
+                <attribute name="number"/>
+                <oneOrMore>
+                  <choice>
+                    <text/>
+                    <ref name="catchline"/>
+                    <ref name="eol"/>
+                    <ref name="subsection"/>
+                    <ref name="tab"/>
+                    <element name="histories">
+                      <empty/>
+                    </element>
+                  </choice>
+                </oneOrMore>
+              </element>
+            </oneOrMore>
+          </choice>
+        </element>
+      </oneOrMore>
+    </element>
+  </start>
+  <define name="catchline">
+    <element name="catchline">
+      <text/>
+    </element>
+  </define>
+  <define name="subsection">
+    <element name="subsection">
+      <attribute name="number"/>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="eol"/>
+          <ref name="subsection"/>
+          <ref name="tab"/>
+          <element name="xref">
+            <attribute name="depth">
+              <data type="integer"/>
+            </attribute>
+            <attribute name="refnumber"/>
+            <attribute name="start">
+              <data type="integer"/>
+            </attribute>
+            <text/>
+          </element>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="eol">
+    <element name="eol">
+      <empty/>
+    </element>
+  </define>
+  <define name="tab">
+    <element name="tab">
+      <empty/>
+    </element>
+  </define>
+</grammar>
